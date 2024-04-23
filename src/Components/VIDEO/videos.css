@@ -1,0 +1,34 @@
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Increase the gap between cards */
+}
+
+.video-card {
+  width: 400px; /* Set the width of each card */
+  height: 300px; /* Set the default height of each card */
+  background: linear-gradient(135deg, #f6f0f5, #d6b9d7); /* Gradient background */
+  color: black; /* Set the text color */
+  border-radius: 20px; /* Add rounded edges */
+  padding: 20px; /* Add padding to the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.video-card video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Round the corners of the video */
+}
+
+.video-title {
+  text-align: center;
+  margin-top: 10px; /* Add margin to separate video title from video */
+}
+
+@media (max-width: 768px) {
+  .video-card {
+    width: 90%; /* Set card width to 90% of the viewport width in mobile view */
+    height: auto; /* Set height to auto for mobile view */
+  }
+}

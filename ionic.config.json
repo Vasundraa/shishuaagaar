@@ -1,0 +1,7 @@
+{
+  "name": "{LactApp}",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

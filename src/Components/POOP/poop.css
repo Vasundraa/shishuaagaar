@@ -1,0 +1,60 @@
+.poop-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Changed min-height to height */
+  background-image: linear-gradient(rgba(140, 76, 232, 0.3), rgba(182, 121, 212, 0.5)),url('../../assets/poopbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.poop-form form {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #F1D7FC;
+  box-shadow: 0 10px 16px #60207C;
+}
+
+.poop-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.poop-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.poop-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #CB65F7;
+  color: black;
+  cursor: pointer;
+}
+
+.poop-form button:hover {
+  background-color: rgb(227, 199, 241);
+}
+
+@media (max-width: 600px) {
+  .poop-form form {
+    width: 100%;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,58 @@
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .in {
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .but {
+    margin-bottom: 1rem;
+  }
+  
+  .txt {
+    background-color: lavender;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .txt:hover {
+    background-color: purple;
+    color: white;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .txt {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+
+
+  .logout-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .logout-btn {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

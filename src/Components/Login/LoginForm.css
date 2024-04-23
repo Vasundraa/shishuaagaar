@@ -1,0 +1,195 @@
+
+
+.wrapper {
+    width:440px;
+    background: #fff;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin:30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border:2px solid rgb(192, 118, 192);
+    outline: none;    
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color:black;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: rgb(100, 98, 98);
+    font-family: "Mukta Malar", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.input-box .icon{
+    position:absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    font-family: "Mukta Malar", sans-serif;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 500;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: black;
+    margin-right: 4px;
+}
+
+.remember-forgot a{
+    color: black;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+div.wrapper button.google-signin-button {
+    width: 100%;
+    height: 45px;
+    background: rgb(235, 199, 235);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-family: "Mukta Malar", sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+
+div.wrapper button.google-signin-button:hover {
+    background-color: rgb(192, 118, 192);
+    color: white;
+}
+
+.wrapper button {
+    width: 100%;
+    height: 45px;
+    background: rgb(235, 199, 235);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-family: "Mukta Malar", sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+
+.wrapper button:hover{
+    background-color: rgb(192, 118, 192);
+    color: white;
+}
+
+
+.wrapper .register-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+.register-link a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.error{
+    color: red;
+}
+.wrapper {
+    width: 440px;
+    background: #fff;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: 10px;
+    padding: 30px 30px;
+    margin:0 auto;
+    margin-top: 200px; /* Center horizontally */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0; /* Reduce margin */
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgb(192, 118, 192);
+    outline: none;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+.loginform{
+    background-color: #fff;
+    border: #fff;
+    
+}
+
+
+/* Remaining styles remain unchanged */
