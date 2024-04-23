@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
 const Signup = () => {
-
+ 
     const [userCredentials, setUserCredentials] = useState({});
     const [error, setError] = useState('');
     const [showPassword, setShowPassword] = useState(false); // State to manage password visibility

@@ -65,14 +65,14 @@
     margin-right: 4px;
 }
 
-.remember-forgot a{
+/*.remember-forgot a{
     color: black;
     text-decoration: none;
 }
 
 .remember-forgot a:hover{
     text-decoration: underline;
-}
+}*/
 
 div.wrapper button.google-signin-button {
     width: 100%;

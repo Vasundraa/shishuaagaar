@@ -5,8 +5,7 @@ import Hero from '../Hero/Hero';
 import Menus from '../Menus/Menus';
 import Title from '../Title/Title';
 import About from '../About/About';
-import Gallery from '../Gallery/Gallery';
-import Annotation from '../Annotation/Annotation';
+
 import Contact from '../Contact Us/Contact';
 import Footer from '../Footer/Footer';
 import VideoPlayer from '../VideoPlayer/VideoPlayer';

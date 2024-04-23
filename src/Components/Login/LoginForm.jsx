@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './LoginForm.css';
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+// eslint-disable-next-line no-unused-vars
 import { auth, provider } from '../firebase/config.js';
+// eslint-disable-next-line no-unused-vars
 import { sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, onAuthStateChanged } from "firebase/auth";
 import { useNavigate } from 'react-router-dom';
 
@@ -10,9 +12,12 @@ const LoginForm = () => {
     const [userCredentials, setUserCredentials] = useState({ email: '', password: '' });
     const [error, setError] = useState('');
     const [showPassword, setShowPassword] = useState(false);
+    // eslint-disable-next-line no-unused-vars
     const [rememberMe, setRememberMe] = useState(false);
+    // eslint-disable-next-line no-unused-vars
     const [isAuthenticated, setIsAuthenticated] = useState(false);
     const navigate = useNavigate();
+    // eslint-disable-next-line no-unused-vars
     const [value, setValue] = useState('');
 
     useEffect(() => {
@@ -89,23 +94,6 @@ const LoginForm = () => {
 
 
 
-    {/* const handleGoogleSignIn = () => {
-        signInWithPopup(auth, provider)
-            .then((data) => {
-                setValue(data.user.email)
-                localStorage.setItem("email", data.user.email)
-            })
-            .catch((error) => {
-                if (error.code === "auth/popup-closed-by-user") {
-                    // Handle the case where the user closes the popup
-                    console.log("Popup closed by user");
-                    // Optionally, you can provide feedback to the user
-                } else {
-                    // Handle other errors
-                    setError(error.message);
-                }
-            });
-    } */}
 
 
 
@@ -143,7 +131,10 @@ const LoginForm = () => {
                         {showPassword ? <FaEye className='icon' onClick={handlePasswordToggle} /> : <FaEyeSlash className='icon' onClick={handlePasswordToggle} />}
                     </div>
                     <div className='remember-forgot'>
-                        <a onClick={handlePasswordReset}>பாஸ்வர்டை மறந்துவிட்டீர்களா?</a>
+                    <button onClick={handlePasswordReset} style={{  background: 'none', textDecoration: 'none', cursor: 'pointer',  color: 'black' }}>பாஸ்வர்டை மறந்துவிட்டீர்களா?</button>
+
+
+
                     </div>
 
                     <br />

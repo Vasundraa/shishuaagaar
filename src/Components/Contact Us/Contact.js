@@ -2,8 +2,8 @@
 import './Contact.css'
 import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
-import phone_icon from '../../assets/phone-icon.png'
-import location_icon from '../../assets/location-icon.png'
+//import phone_icon from '../../assets/phone-icon.png'
+//import location_icon from '../../assets/location-icon.png' 
 import white_arrow from '../../assets/white-arrow.png'
 //import { FormControlLabel, Checkbox } from '@mui/material'
 import React,{useState} from "react";
@@ -14,7 +14,7 @@ const Contact = () => {
     setSelectedOption(event.target.value);
 };
 
-    const[result ,setResult]= React.useState("");
+const[setResult]= React.useState("");
     const onSubmit = async (event) => {
         event.preventDefault();
         setResult("Sending....");
@@ -40,12 +40,12 @@ const Contact = () => {
   return (
     <div className='contact'>
         <div className='contact-col'>
-            <h3>Lact App <img src={msg_icon} alt=""/></h3>
+            <h3>Shihu Aagaar<img src={msg_icon} alt=""/></h3>
             <p>கீழே காட்டப்பட்டுள்ள விவரங்களைப் பயன்படுத்தவும். உங்கள் கருத்து, கேள்விகள் மற்றும் பரிந்துரைகளை நாங்கள் பாராட்டுகிறோம்.</p>
             <ul>
                 <li><img src={mail_icon} alt=""/>Contact@LactApp.com</li>
-                <li><img src={phone_icon} alt=""/>+91 0000000000</li>
-                <li><img src={location_icon} alt=""/>77 Poo Market , Townhall<br/>Coimbatore</li>
+               {/* <li><img src={phone_icon} alt=""/>+91 0000000000</li>
+                <li><img src={location_icon} alt=""/>77 Poo Market , Townhall<br/>Coimbatore</li>*/}
             </ul>
         </div>
         <div className='contact-col'>

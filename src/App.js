@@ -43,14 +43,14 @@ function App() {
   const [user, setUser] = useState(null);
   const [initializing, setInitializing] = useState(true);
 
-  useEffect(() => {
+ useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       setUser(user);
       setInitializing(false);
     });
 
     return unsubscribe;
-  }, [auth]);
+  }, []); 
 
   if (initializing) return <div>Loading...</div>;
 
