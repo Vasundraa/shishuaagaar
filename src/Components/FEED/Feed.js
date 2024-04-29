@@ -18,9 +18,9 @@ function Feed() {
   const [feelings, setFeelings] = useState('');
   const [presentWeight, setPresentWeight] = useState('');
 
-  const AddProductInfo = async () => {
+ const AddFeedInfo = async () => {
     try {
-      const response = await axios.post('https://glacial-fjord-91358-c99e7750e6a2.herokuapp.com/breastfeed-detail/') {
+      const formField = {
         parentName,
         startTime,
         stopTime,
@@ -34,6 +34,8 @@ function Feed() {
         feelings,
         presentWeight,
       };
+  
+      const response = await axios.post('https://glacial-fjord-91358-c99e7750e6a2.herokuapp.com/breastfeed-detail/', formField);
       console.log(response.data);
       navigate('/profile');
     } catch (error) {
