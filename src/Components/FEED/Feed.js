@@ -20,7 +20,7 @@ function Feed() {
 
   const AddProductInfo = async () => {
     try {
-      const response = await axios.post('https://glacial-fjord-91358-c99e7750e6a2.herokuapp.com/breastfeed-detail/', {
+      const response = await axios.post('https://glacial-fjord-91358-c99e7750e6a2.herokuapp.com/breastfeed-detail/') {
         parentName,
         startTime,
         stopTime,
@@ -33,7 +33,7 @@ function Feed() {
         nippleCracks,
         feelings,
         presentWeight,
-      });
+      };
       console.log(response.data);
       navigate('/profile');
     } catch (error) {
