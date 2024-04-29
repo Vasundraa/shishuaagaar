@@ -155,7 +155,7 @@ function Feed() {
           <input type="text" id="presentWeight" value={presentWeight} onChange={(e) => setPresentWeight(e.target.value)} />
         </div>
 
-        <button type="submit" onClick={AddProductInfo}>சரி</button>
+        <button type="submit" onClick={AddFeedInfo}>சரி</button>
       </form>
     </div>
   );
