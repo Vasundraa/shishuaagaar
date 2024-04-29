@@ -33,7 +33,7 @@ function SizeAndWeight() {
     formField.append('height', babyDetails.height);
 
     try {
-      const response = await axios.post('https://glacial-fjord-91358-c99e7750e6a2.herokuapp.com/product/', formField);
+      const response = await axios.post("https://glacial-fjord-91358-c99e7750e6a2.herokuapp.com/product/", formField);
       console.log(response.data);
       navigate('/profile');
     } catch (error) {
