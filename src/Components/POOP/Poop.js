@@ -40,7 +40,7 @@ function Poop() {
     formField.append('timing', timing);
 
     try {
-      const response = await axios.post('http://localhost:8000/api/poop_detail/', formField);
+      const response = await axios.post('https://glacial-fjord-91358-c99e7750e6a2.herokuapp.com/poop_detail/', formField);
       console.log(response.data);
       navigate('/profile');
     } catch (error) {
