@@ -35,7 +35,7 @@ function Feed() {
         presentWeight,
       };
   
-      const response = await axios.post('https://glacial-fjord-91358-c99e7750e6a2.herokuapp.com/breastfeed-detail/', formField);
+      const response = await axios.post('https://immense-inlet-39795-a0ed7f5bb9f7.herokuapp.com/breastfeed-detail/', formField);
       console.log(response.data);
       navigate('/profile');
     } catch (error) {
