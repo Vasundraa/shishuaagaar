@@ -19,7 +19,7 @@ const Videos = () => {
       <div className="video-container">
         <Card className="video-card">
           <CardBody>
-            <video controls>
+            <video controlsList="nodownload">
               <source src={v3} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -28,7 +28,7 @@ const Videos = () => {
         </Card>
         <Card className="video-card">
           <CardBody>
-            <video controls>
+            <video controlsList="nodownload">
               <source src={v1} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -37,7 +37,7 @@ const Videos = () => {
         </Card>
         <Card className="video-card">
           <CardBody>
-            <video controls>
+            <video controlsList="nodownload">
               <source src={v4} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -46,7 +46,7 @@ const Videos = () => {
         </Card>
         <Card className="video-card">
           <CardBody>
-            <video controls>
+            <video controlsList="nodownload">
               <source src={v6} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -55,7 +55,7 @@ const Videos = () => {
         </Card>   
         <Card className="video-card">
           <CardBody>
-            <video controls>
+            <video controlsList="nodownload">
               <source src={v7} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -65,7 +65,7 @@ const Videos = () => {
 
         <Card className="video-card">
           <CardBody>
-            <video controls>
+            <video controlsList="nodownload">
               <source src={v8} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -75,7 +75,7 @@ const Videos = () => {
 
         <Card className="video-card">
           <CardBody>
-            <video controls>
+            <video controlsList="nodownload">
               <source src={v5} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -85,7 +85,7 @@ const Videos = () => {
 
         <Card className="video-card">
           <CardBody>
-            <video controls>
+            <video controlsList="nodownload">
               <source src={v2} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -95,7 +95,7 @@ const Videos = () => {
 
         <Card className="video-card">
           <CardBody>
-            <video controls>
+            <video controlsList="nodownload">
               <source src={v9} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -104,7 +104,7 @@ const Videos = () => {
         </Card>
         <Card className="video-card">
           <CardBody>
-            <video controls>
+            <video controlsList="nodownload">
               <source src={v10} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
