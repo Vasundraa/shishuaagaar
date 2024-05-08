@@ -6,7 +6,7 @@ const Feedinfo = () => {
 
     const getProducts = async () => {
         try {
-            const response = await axios.get('http://127.0.0.1:8000/api/breastfeed-detail/');
+            const response = await axios.get('https://immense-inlet-39795-a0ed7f5bb9f7.herokuapp.com/breastfeed-detail/');
             const productsWithData = response.data.map(product => ({
                 ...product,
                 parentName: product.parentName, // Fetch parent name
