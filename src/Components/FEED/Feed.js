@@ -84,7 +84,7 @@ function Feed() {
           <input type="time" id="stopTime" value={stopTime} onChange={(e) => setStopTime(e.target.value)} />
         </div>
         <div>
-          <label htmlFor="breastSide">குழந்தை பாலூட்ட எந்த மார்பகத்தைப் பயன்படுத்தினீர்கள்?</label>
+          <label htmlFor="breastSide"> குழந்தைக்குபாலூட்ட எந்த மார்பகத்தைப் பயன்படுத்தினீர்கள்?</label>
           <select id="breastSide" value={breastSide} onChange={(e) => setBreastSide(e.target.value)}>
             <option value="">தேர்ந்தெடு </option>
             <option value="இடது">இடது</option>
