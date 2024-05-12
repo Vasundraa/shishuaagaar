@@ -69,7 +69,7 @@ function SizeAndWeight() {
         </label>
         <br />
         <label>
-          பிறந்த நாள்:
+          குழந்தையின் பிறந்த நாள்:
           <input className='input'
             type="date"
             name="date"
