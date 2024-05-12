@@ -115,7 +115,7 @@ function Feed() {
           </select>
         </div>
         <div>
-          <label htmlFor="nippleColor">முலைக்காம்பின் நிறம் என்ன?</label>
+          <label htmlFor="nippleColor">தாய்ப்பால் கொடுத்தபின் முலைக்காம்பின் நிறம் என்ன?</label>
           <select id="nippleColor" value={nippleColor} onChange={(e) => setNippleColor(e.target.value)}>
             <option value="">தேர்ந்தெடு </option>
             <option value="கருப்பு நிறம்">கருப்பு நிறம்</option>
