@@ -11,7 +11,7 @@ const B3 = () => {
 
       </div>
       <div className='answer'>
-        <h3 style={{ color: '#BB0297' }}>தாய்ப்பால் கொடுக்கும் முறை</h3>
+        <h3 style={{ color: '#BB0297' }}>தாய்ப்பால் கொடுக்கும் சரியான இணைப்பு படிகள்</h3>
         <br />
         <img src={i3} className='image3' alt="" />
         <br /><br />
