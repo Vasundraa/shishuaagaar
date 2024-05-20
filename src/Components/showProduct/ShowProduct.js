@@ -7,7 +7,7 @@ const ShowProduct = () => {
 
     const getProducts = async () => {
         try {
-            const response = await axios.get('https://immense-inlet-39795-a0ed7f5bb9f7.herokuapp.com/product/');
+            const response = await axios.get('https://sisuagaar-f7ec68c3fdcf.herokuapp.com/product/');
             const productsWithData = response.data.map(product => ({
                 ...product,
                 parentName: product.parentName, // Fetch parent name
