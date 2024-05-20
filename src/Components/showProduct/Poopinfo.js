@@ -6,7 +6,7 @@ const Poopinfo = () => {
 
     const getPoops = async () => {
         try {
-            const response = await axios.get('https://immense-inlet-39795-a0ed7f5bb9f7.herokuapp.com/poop_detail/');
+            const response = await axios.get('https://sisuagaar-f7ec68c3fdcf.herokuapp.com/poop_detail/');
             const poopsWithData = response.data.map(poop => ({
                 ...poop,
                 parentName: poop.parentName, // Fetch parent name
