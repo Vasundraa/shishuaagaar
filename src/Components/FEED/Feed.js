@@ -35,7 +35,7 @@ function Feed() {
         presentWeight,
       };
   
-      const response = await axios.post('https://immense-inlet-39795-a0ed7f5bb9f7.herokuapp.com/breastfeed-detail/', formField);
+      const response = await axios.post('https://sisuagaar-f7ec68c3fdcf.herokuapp.com/breastfeed-detail/', formField);
       console.log(response.data);
       navigate('/profile');
     } catch (error) {
