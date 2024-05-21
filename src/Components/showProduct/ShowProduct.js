@@ -7,7 +7,7 @@ const ShowProduct = () => {
 
     const getProducts = async () => {
         try {
-            const response = await axios.get('https://sisuagaar-data.onrender.com/product/');
+            const response = await axios.get('https://sisu-hfzm.onrender.com/product/');
             const productsWithData = response.data.map(product => ({
                 ...product,
                 parentName: product.parentName, // Fetch parent name
