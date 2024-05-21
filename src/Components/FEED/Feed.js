@@ -35,7 +35,7 @@ function Feed() {
         presentWeight,
       };
   
-      const response = await axios.post('https://sisuagaar-f7ec68c3fdcf.herokuapp.com/breastfeed-detail/', formField);
+      const response = await axios.post('https://sisuagaar-data.onrender.com/breastfeed-detail/', formField);
       console.log(response.data);
       navigate('/profile');
     } catch (error) {
