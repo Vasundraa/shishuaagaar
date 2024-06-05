@@ -6,7 +6,7 @@ const Feedinfo = () => {
 
     const getProducts = async () => {
         try {
-            const response = await axios.get('https://sisu-hfzm.onrender.com/breastfeed-detail/');
+            const response = await axios.get('https://vasubanu.pythonanywhere.com/breastfeed-detail/');
             const productsWithData = response.data.map(product => ({
                 ...product,
                 parentName: product.parentName, // Fetch parent name
