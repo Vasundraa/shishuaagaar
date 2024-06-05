@@ -35,7 +35,7 @@ function Feed() {
         presentWeight,
       };
   
-      const response = await axios.post('https://sisu-hfzm.onrender.com/breastfeed-detail/', formField);
+      const response = await axios.post('https://vasubanu.pythonanywhere.com/breastfeed-detail/', formField);
       console.log(response.data);
       navigate('/profile');
     } catch (error) {
