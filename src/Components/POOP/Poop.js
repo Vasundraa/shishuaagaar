@@ -40,7 +40,7 @@ function Poop() {
     formField.append('timing', timing);
 
     try {
-      const response = await axios.post('https://sisu-hfzm.onrender.com/poop_detail/', formField);
+      const response = await axios.post('https://vasubanu.pythonanywhere.com/poop_detail/', formField);
       console.log(response.data);
       navigate('/profile');
     } catch (error) {
