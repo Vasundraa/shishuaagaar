@@ -38,6 +38,7 @@ const Feedinfo = () => {
                         <th>milkBlister</th>
                         <th>nippleCracks</th>
                         <th>feelings</th>
+                        <th>presentWeight</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -55,6 +56,7 @@ const Feedinfo = () => {
                             <td>{product.milkBlister}</td>
                             <td>{product.nippleCracks}</td>
                             <td>{product.feelings}</td>
+                            <td>{product.presentWeight}</td>
                         </tr>
                     ))}
                 </tbody>
