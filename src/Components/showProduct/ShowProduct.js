@@ -31,7 +31,7 @@ const ShowProduct = () => {
                         <th>Parent name</th>
                         <th>Date</th>
                         <th>Sex</th>
-                        <th>Premature</th>
+                        <th>Gestational age</th>
                         <th>Weight</th>
                         <th>Height</th>
                     </tr>
