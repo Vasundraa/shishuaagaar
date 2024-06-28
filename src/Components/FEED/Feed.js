@@ -76,11 +76,11 @@ function Feed() {
           <input type="text" id="parentName" value={parentName} onChange={(e) => setParentName(e.target.value)} />
         </div>
         <div>
-          <label htmlFor="startTime">பாலூட்டல் தொடக்க நேரம்:</label>
+          <label htmlFor="startTime">தாய்ப்பாலூட்டல் தொடக்க நேரம்:</label>
           <input type="time" id="startTime" value={startTime} onChange={(e) => setStartTime(e.target.value)} />
         </div>
         <div>
-          <label htmlFor="stopTime">பாலூட்டல் முடிவு நேரம்:</label>
+          <label htmlFor="stopTime">தாய்ப்பாலூட்டல் முடிவு நேரம்:</label>
           <input type="time" id="stopTime" value={stopTime} onChange={(e) => setStopTime(e.target.value)} />
         </div>
         <div>
