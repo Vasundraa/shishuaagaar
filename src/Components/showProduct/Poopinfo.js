@@ -28,8 +28,8 @@ const Poopinfo = () => {
                     <tr>
                         <th>Date</th>
                         <th>Parent Name</th>
-                        <th>PeeTime</th>
-                        <th>Time</th>
+                        <th>Urine Time</th>
+                        <th>Pee Time</th>
                         <th>Colour</th>
                         <th>Texture</th>
                     </tr>
