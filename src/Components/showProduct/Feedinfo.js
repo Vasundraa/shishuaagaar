@@ -31,7 +31,7 @@ const Feedinfo = () => {
                         <th>startTime</th>
                         <th>stopTime</th>
                         <th>breastSide</th>
-                        <th>supplement</th>
+                        <th>Feeding Type</th>
                         <th>painLevel</th>
                         <th>nippleShape</th>
                         <th>nippleColor</th>
